@@ -1,0 +1,28 @@
+Connection information test site - DVDRental example
+
+The web-based deployments of the DVDRental example residing on Enviro Data server can be accessed by desktop / mobile browsers and by Omnis App for iOS and Android.
+
+Connection info for desktop / mobile browsers:
+
+http://envirodata.se/testapp
+
+Via Omnis App for iOS and Android:
+
+Name: DVDRental Test
+Host Server: http://envirodata.se
+Online form URL: /testapp?
+
+Caveats:
+
+Not beautified! Remember this!
+Some quirks in the event management in the mobile version - sometimes you have to click lists to update linked elements properly.
+
+You start with optionally specifying a search term and press search - then choose actors in the result list. The sales stats tab involves a 7-table join. Note the performance. By choosing the graphical presentation you see the distribution in an pie chart.
+
+Issues found, critics and suggestions highly welcome. This system is running on a server with large number of connections for testing until August. Kindly perform eventual tests before end of August.
+
+Take care, all the best...
+
+Stene
+
+_______
