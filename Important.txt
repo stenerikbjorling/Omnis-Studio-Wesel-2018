@@ -1,0 +1,11 @@
+Important!
+
+The DVDRental_2018 example covers the use of SQL workers in combination with support for multiple workers in windows / remote forms/ subforms and example of a remote form designed for parallel deployment for desktop and mobile devices.
+
+The example have hardcoded session pools in the Startup task for SQLite with a session pool connected to a Postgres server at Enviro Data for sales analysis. The attached files contains a dump file for Postgres - if you want to use this databaser then each of the data and process objects must have their worker object names assigned to the Postgres worker object name - done in the class variable definition pane.
+
+The current example do not contain a functional demonstration of sql worker support for REST services - work in progress, and the overall solution is only optimised at a basic level. Still quite good performance.
+
+Good luck and hack away...
+
+Sten-Erik Björling (Stene)
